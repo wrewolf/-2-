@@ -55,7 +55,7 @@ namespace h2b
                 }
             }
         }
-
+        // http://stackoverflow.com/a/321404
         public static byte[] StringToByteArray(string hex)
         {
             return Enumerable.Range(0, hex.Length)
